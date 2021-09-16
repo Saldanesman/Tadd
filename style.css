@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color:#ff0022d7;
+  }
+
+  .container {
+    position: relative;
+    top: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 360px;
+    border-radius: 15px;
+    margin: 0 auto;
+    background-image: linear-gradient(120deg, #ff0022d7 0%, #ffbcc5 100%);
+  }
+  
+  h1 {
+    justify-content: center;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 30px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: normal;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    color: #242424;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 1;
+    transition: opacity .3s;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    font-size: 20px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+  }
+  
+  input:focus {
+    box-shadow: 0px 0px 5px 0px rgba(255,255,255,1);
+  }
+  
+  .completed {
+    color: gray;
+    text-decoration: line-through;
+  }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+
+    text-align: center;
+  }
+
+a{
+    color: #e7e7e7;
+    text-decoration:none;
+    text-decoration: underline #e7e7e7;
+    font-weight: bold;
+}
